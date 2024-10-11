@@ -48,3 +48,26 @@ This bot restricts users from sending URLs outside of a specified list of allowe
 4. Set Environment Variables:
   - Go to Settings > Environment Variables.
   - `TOKEN` **Your Telegram bot token from BotFather** `123456789:ABCDefghIJKLmnO_PQRstuV`
+
+    ━━━━━━━━━━━━━━━━━━━━
+
+<h3 align="center">
+    ─「 Support 」─
+</h3>
+
+<p align="center">
+<a href="https://telegram.me/Techy_Shreyansh2F"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+<p align="center">
+<a href="https://telegram.me/shineadshel"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+
+━━━━━━━━━━━━━━━━━━━━
+
+<h3 align="center">
+    ─「 Credits 」─
+</h3>
+
+- <b>[Me](https://github.com/TechyShreyansh)</b>
+- <b>[ShineAds](https://telegram.me/shineadshelp)
+
