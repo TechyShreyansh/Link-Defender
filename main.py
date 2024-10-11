@@ -27,6 +27,7 @@ def start(update: Update, context: CallbackContext) -> None:
 def check_urls(update: Update, context: CallbackContext) -> None:
     message = update.message
     user_id = message.from_user.id
+    username = message.from_user.username  # Get the username of the user
     urls = re.findall(r'(https?://[^\s]+)', message.text)  # Extract URLs using regex
 
     # If user is an admin, allow sending any URL
@@ -44,9 +45,10 @@ def check_urls(update: Update, context: CallbackContext) -> None:
 
                 # Send a warning message to the user
                 warning_text = (
-                    f"⚠️ The URL {url} is not allowed.\n"
+                    f"⚠️ {username}, the URL {url} is not allowed and has been deleted.\n"
                     "Only URLs from the following domains are permitted:\n"
-                    f"{', '.join(ALLOWED_DOMAINS)}"
+                    f"{', '.join(ALLOWED_DOMAINS)}\n\n"
+                    "If you continue sharing unauthorized links, you will be banned."
                 )
                 message.reply_text(warning_text)
             except BadRequest as e:
