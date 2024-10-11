@@ -26,3 +26,21 @@ This bot restricts users from sending URLs outside of a specified list of allowe
    ```bash
    git clone https://github.com/your_username/url_filter_bot.git
    cd url_filter_bot
+
+   ## 🚀 How to Deploy on Koyeb
+
+## Follow the steps below to deploy your bot on Koyeb using GitHub.
+
+###  **Fork this GitHub Repository**
+
+1. Log in to Koyeb: Go to [Koyeb](https://app.koyeb.com/)) and log in to your account.
+2. Create a New App:
+ - In the Koyeb dashboard, click on "Create App".
+ - Choose "Deploy from GitHub".
+ - Connect your GitHub account and select your repository.
+3. Select Your Repository:
+  - Select the repository you pushed your code to [Link Defender](https://github.com/TechyShreyansh/Link-Defender)).
+  - Choose the branch you want to deploy from `master or main`.
+4. Set Environment Variables:
+  - Go to Settings > Environment Variables.
+  - `TOKEN` **Your Telegram bot token from BotFather** `123456789:ABCDefghIJKLmnO_PQRstuV`
