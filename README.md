@@ -1,5 +1,9 @@
 # Link Defender Telegram Bot
 
+<p align="center">
+  <img src="https://github.com/TechyShreyansh/Link-Defender/blob/main/Link%20Defender%20logo.png">
+</p>
+
 This bot restricts users from sending URLs outside of a specified list of allowed domains in a group chat. Only admins are allowed to send any URLs, while regular users are restricted to URLs from a predefined set of domains. If a user tries to send a URL from an unauthorized domain, the bot will delete the message and send a warning.
 
 ## Features
